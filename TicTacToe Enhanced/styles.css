@@ -1,0 +1,77 @@
+body {
+  font-family: 'Gaegu', cursive;
+  background-color: #f7f7f7;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.mode-selection button {
+  background-color: #8ecae6;
+  color: #023047;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.mode-selection button:hover {
+  background-color: #219ebc;
+}
+
+.board {
+  width: 100%;
+  max-width: 460px;
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+}
+
+.square {
+  background-color: #023047;
+  color: #8ecae6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  height: 150px;
+  aspect-ratio: 1;
+}
+
+.square:hover {
+  background-color: #023047b3;
+}
+
+.title {
+  text-align: center;
+  font-size: 2em;
+  color: #023047;
+}
+
+.info {
+  text-align: center;
+  font-size: 1.5em;
+  color: #023047;
+}
+
+#restartButton {
+  background-color: #8ecae6;
+  color: #023047;
+  border: none;
+  padding: 10px 20px;
+  display: block;
+  margin: 20px auto;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+#restartButton:hover {
+  background-color: #219ebc;
+}
